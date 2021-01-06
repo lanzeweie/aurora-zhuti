@@ -3,7 +3,6 @@ node_modules
 *
 .txt
 .sh
-!src/components/Footer/index.vue
 /dist
 package-lock.json
 
@@ -24,3 +23,10 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# 下面是部署网页 上面是上传源码
+# .DS_Store
+# /node_modules/
+# /dist/
+
+# .env
