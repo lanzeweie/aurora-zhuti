@@ -3,7 +3,7 @@ node_modules
 *
 .txt
 .sh
-!src/Home/index.scss
+!src/components/Footer/index.vue
 /dist
 package-lock.json
 
