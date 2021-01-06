@@ -1,7 +1,7 @@
 #上传到github
 git init
 git add -A
-git commit -m '大更新'
+git commit -m '移除毛玻璃'
 
 
 # 部署到 https://<USERNAME>.github.io
