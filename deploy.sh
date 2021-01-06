@@ -8,8 +8,7 @@ git commit -m '修改上传说明'
 git push -f git@github.com:lanzeweie/aurora-zhuti.git master
 
 
-#下面是部署网页 上面是上传源码  使用一种之前在另一种前面 #
-#!/usr/bin/env sh
+#下面是部署网页 上面是上传源码  使用一种之前在另一种的代码前面 #
 
 # 当发生错误时中止脚本
 # set -e
