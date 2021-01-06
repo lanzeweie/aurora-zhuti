@@ -110,7 +110,7 @@ export default {
     display: true,
     enableComment: true,
     qoute: '终 焉',
-    avatar: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/avatar.jpg',
+    avatar: 'https://cdn.jsdelivr.net/gh/lanzeweie/cdn/picture/龙猫.png',
 	graduated: 'no', 
     college: 'no',
     contact: [
