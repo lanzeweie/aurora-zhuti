@@ -2,8 +2,8 @@
 node_modules
 *
 /dist
-
-
+..gitignore
+.deploy.sh
 # local env files
 .env.local
 .env.*.local
