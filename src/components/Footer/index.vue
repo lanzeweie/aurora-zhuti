@@ -32,7 +32,7 @@
       </p>
       <p>
         Theme -
-        <a rel="noopener noreferrer" target="_blank" href="https://github.com/chanshiyucx/aurora">Aurora</a>
+        <a rel="noopener noreferrer" target="_blank" href="https://github.com/lanzeweie/aurora-zhuti">Aurora</a>
       </p>
     </div>
     <img
