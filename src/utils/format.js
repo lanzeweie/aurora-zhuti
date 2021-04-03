@@ -6,16 +6,24 @@ import config from '../config'
  * 格式化文章
  */
 const regex = /^(.+)?\r\n\s*(.+)?\r\n/
-const coverRegex = /^\[(.+)\].*(http?.*(?:jpg|jpeg|png|gif|php))/   /*右下角小字+文章图片识别 */
+const coverRegex = /^\[(.+)\].*(http.*(?:jpg|jpeg|png|gif))/
 export const formatPost = (post) => {
   const { body, created_at } = post
   const result = regex.exec(body)
   const cover = coverRegex.exec(result[1])
-  post.cover = {
-    title: cover[1] || 'defaultCover',
-    src: cover[2] || config.defaultCover,
+  if (cover && cover.length === 3) {
+    post.cover = {
+      title: cover[1],
+      src: cover[2],
+    }
+    post.description = result[2]
+  } else {
+    post.cover = {
+      title: '',
+      src: config.defaultCover,
+    }
+    post.description = result[1]
   }
-  post.description = result[2]
   post.created_at = format(created_at, 'zh_CN').replace(/\s/, '')
   return post
 }
