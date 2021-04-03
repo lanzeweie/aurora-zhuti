@@ -10,7 +10,7 @@ header {
   @include sp-layout {
     margin-bottom: 4vw;
     padding: 40px 0;
-    color: rgba($color: #694141, $alpha: 0.1);
+    color: rgba($color: #795548, $alpha: 0.1);
     background-image: $mobile-bg;
     background-size: cover;
     background-position: bottom;
@@ -36,8 +36,9 @@ header {
       line-height: 60px;
     }
     @include sp-layout {
-      font-size: 0px; /*手机端标题字大小*/
+      font-size: 34px; /*手机端标题字大小*/
       line-height: 56px;
+      color: #455c64
     }
     &:hover {
       color: $link-color;
@@ -78,7 +79,7 @@ header {
       transform: translateY(40px);
       text-shadow: 0 0 1px $bg-dark-dim;
       box-shadow: 0 -1px 2px $bg-dark;
-      backdrop-filter: blur(0.5px) ; /*高斯模糊*/
+      backdrop-filter: blur(1px) ; /*高斯模糊*/
       color: #914b4b; /*标签颜色*/
 
       .router-link-exact-active {
