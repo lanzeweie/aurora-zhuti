@@ -15,14 +15,6 @@
                 <i class="icon icon-pagelines"></i>
                 {{ $config.subtitle }}
               </span>
-              <span>
-                <i class="icon icon-graduation-cap"></i>
-                {{ $config.aboutOpts.graduated }}
-              </span>
-              <span>
-                <i class="icon icon-tripadvisor"></i>
-                {{ $config.aboutOpts.college }}
-              </span>
             </div>
           </div>
           <div class="contact">
