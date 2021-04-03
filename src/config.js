@@ -32,7 +32,8 @@ export default {
     repo: 'comment', // 评论仓库地址
     owner: 'lanzeweie',
     admin: ['lanzeweie'],
-    distractionFreeMode: false // 是否开始无干扰模式【背景遮罩】
+    distractionFreeMode: false, // 是否开始无干扰模式【背景遮罩】
+    proxy: 'https://bokegitalkcors.herokuapp.com/https://github.com/login/oauth/access_token',
   },
 
   /**
@@ -111,8 +112,8 @@ export default {
     enableComment: true,
     qoute: '终 焉',
     avatar: 'https://cdn.jsdelivr.net/gh/lanzeweie/cdn/picture/龙猫.png',
-	graduated: 'no', 
-    college: 'no',
+ /* graduated: 'University of Electronic Science and Technology of China (UESTC)',
+    college: 'Communication&Information Engineering', */
     contact: [
       {
         icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/email.png',
