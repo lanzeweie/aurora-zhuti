@@ -125,7 +125,7 @@ export default {
       },
       {
         icon: 'https://tenkinoko.com/assets/images/common/share-tw.png',
-        link: 'https://twitter.com/lanzeweie1',
+        link: 'https://twitter.com/kjXAQVGuLD9iTkA',
       }
     ]
   },
