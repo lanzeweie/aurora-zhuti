@@ -6,7 +6,7 @@ import config from '../config'
  * 格式化文章
  */
 const regex = /^(.+)?\r\n\s*(.+)?\r\n/
-const coverRegex = /^\[(.+)\].*(http.*(?:jpg|jpeg|png|gif))/
+const coverRegex = /^\[(.+)\].*(http?.*(?:jpg|jpeg|png|gif|php))/     /*右下角小字+文章图片识别 */
 export const formatPost = (post) => {
   const { body, created_at } = post
   const result = regex.exec(body)
